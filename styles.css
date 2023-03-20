@@ -1,0 +1,35 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    padding: 16px 48px;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.headerlinkbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerlink {
+    font-size: 18px;
+    margin: 0 16px;
+}
