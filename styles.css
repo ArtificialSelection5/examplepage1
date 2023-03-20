@@ -39,12 +39,35 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 48px;
 }
 
 .herobox {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.imgplaceholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 64px;
 
 }
 
-.heroimage {
+.btnsignup {
+    background-color: #3882f6;
+}
 
+.heromaintext {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.herotext {
+    color: #e5e7eb;
+    font-size: 18px;
 }
