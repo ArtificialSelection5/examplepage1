@@ -109,3 +109,28 @@ a {
     border-width: 4px;
 }
 
+.testimonialsection {
+    background-color: #e5e7eb;
+    padding: 32px;
+}
+
+.testimonial {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+}
+.testimonialbody,
+.testimonialsource {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1f2937;
+}
+
+.testimonialsource {
+    font-weight: bold;
+    font-style: normal;
+    align-self: last baseline;
+}
