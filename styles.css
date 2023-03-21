@@ -45,7 +45,7 @@ a {
 .herobox {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 40%;
     padding: 8px;
 }
 
@@ -55,6 +55,7 @@ a {
     align-items: center;
     background-color: #e5e7eb;
     padding: 64px;
+    max-width: 40%;
 
 }
 
@@ -76,3 +77,35 @@ a {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.informationsection {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoheader {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.infocontainer {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    align-items: center;
+}
+
+.infobox {
+    max-width: 20%;
+}
+.infoimgbox {
+    border-color: #3882f6;
+    border-radius: .5em;
+    min-height: 100px;
+    min-width: 100px;
+    border-width: 4px;
+}
+
