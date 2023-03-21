@@ -61,10 +61,11 @@ a {
 
 .btnsignup {
     background-color: #3882f6;
-    max-width: 200px;
+    width: 200px;
     padding: 8px;
     border-radius: .5em;
     border-style: hidden;
+    margin: 4px;
 }
 
 .heromaintext {
@@ -100,13 +101,14 @@ a {
 
 .infobox {
     max-width: 20%;
+    margin: 8px;
 }
 .infoimgbox {
     border: #3882f6;
     border-radius: .5em;
     min-height: 100px;
     min-width: 100px;
-    border-width: 4px;
+    border-style: solid;
 }
 
 .testimonialsection {
@@ -133,4 +135,29 @@ a {
     font-weight: bold;
     font-style: normal;
     align-self: last baseline;
+}
+
+.calltoactionsection {
+    display: flex;
+    justify-content: center;
+}
+.calltoactionbox {
+    background-color: #3882f6;
+    border-radius: .5em;
+    display: flex;
+    margin: 64px auto;
+}
+
+.calltoactiontext {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+}
+
+.btncalltoaction {
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-radius: .5em;
+    border-width: 2px;
+    border-style: solid;
 }
